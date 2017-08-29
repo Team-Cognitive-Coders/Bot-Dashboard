@@ -26,6 +26,7 @@ public class Application {
 			repository.save(new App("Kim", "Bauer"));
 			repository.save(new App("David", "Palmer"));
 			repository.save(new App("Michelle", "Dessler"));
+			repository.save(new App("Michelle", "Dessler"));
 
 			// fetch all customers
 			log.info("Customers found with findAll():");
